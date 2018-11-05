@@ -1,0 +1,20 @@
+{
+  "name": "buffer-to-spectogram",
+  "version": "0.0.5",
+  "description": "Converts an audio buffer to a spectogram in node and outputs it as an png",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Camilo Tapia <camilo.tapia@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "spectogram"
+  ],
+  "dependencies": {
+    "pureimage": "0.1.6",
+    "wav-spectrogram": "0.0.4",
+    "waveheader": "0.0.2",
+    "zero-fill": "2.2.3"
+  }
+}
