@@ -5,9 +5,10 @@ const bufferToSpectogram = require('../');
 const start = async () => {
 
 
-    const wavFile = path.join(__dirname, './data/12_11_01-sound-espresso.wav');
+    const wavFile = path.join(__dirname, './data/nespresso.wav');
+    // const wavFile = path.join(__dirname, './data/12_11_01-sound-espresso.wav');
     // const wavFile = path.join(__dirname, './data/sound-0001.wav');
-    const spectrogramFile = path.join(__dirname, './output/spectogram.png');
+    const spectrogramFile = path.join(__dirname, './output/nespresso.png');
     const buffer = fs.readFileSync(wavFile);
 
     try {
