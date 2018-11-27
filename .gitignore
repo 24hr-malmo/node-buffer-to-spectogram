@@ -61,4 +61,4 @@ typings/
 .next
 
 dev/output
-
+.DS_Store
