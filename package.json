@@ -1,6 +1,6 @@
 {
   "name": "buffer-to-spectogram",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Converts an audio buffer to a spectogram in node and outputs it as an png",
   "main": "index.js",
   "scripts": {

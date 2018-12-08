@@ -12,7 +12,7 @@ const start = async () => {
 
     try {
 
-        let result = await bufferToSpectogram(buffer, spectrogramFile, {isWav: true});
+        let result = await bufferToSpectogram(buffer, spectrogramFile, {returnAsBuffer: true, isWav: true});
 
         result.forEach(item => {
             console.log(item.filename);
